@@ -6,8 +6,9 @@ Short local lab aligned with:
 
 ## What is included
 
-- `lab_data_mining_techniques.ipynb`: main lab notebook
+- `lab_data_mining_techniques.ipynb`: main lab notebook (executed with outputs)
 - `requirements.txt`: Python dependencies
+- `start_lab.sh`: one-command local launcher
 
 ## Techniques covered
 
@@ -15,20 +16,28 @@ Short local lab aligned with:
 - Clustering with K-Means (with PCA visualization)
 - Classification with Decision Trees
 - Split criteria comparison: `gini` vs `entropy`
-- Missing data handling with imputation:
-  - `SimpleImputer` (`mean`, `median`, `most_frequent`)
-  - `KNNImputer`
+- Missing data handling with `SimpleImputer` (`mean`, `median`, `most_frequent`)
+- Missing data handling with `KNNImputer`
 - Overfitting check via depth vs accuracy plots
 - Feature importance visualization
+- Output interpretation comments after result cells
+- 10 assignment variants for 10 students
 
 ## Dataset
 
-The notebook uses the open-source **Wine dataset** loaded via:
-- `sklearn.datasets.load_wine`
+The notebook uses the open-source **Iris** dataset loaded via:
+- `sklearn.datasets.load_iris`
 
 No manual download is required.
 
-## Local run
+## Quick start
+
+```bash
+cd /Users/vittoriadiachenko/Projects/data-mining-techniques-lab
+./start_lab.sh
+```
+
+## Manual start
 
 ```bash
 cd /Users/vittoriadiachenko/Projects/data-mining-techniques-lab
@@ -40,10 +49,3 @@ jupyter lab
 ```
 
 Open `lab_data_mining_techniques.ipynb` and run cells top to bottom.
-
-Alternative one-command start:
-
-```bash
-cd /Users/vittoriadiachenko/Projects/data-mining-techniques-lab
-./start_lab.sh
-```
