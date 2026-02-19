@@ -8,7 +8,9 @@ Short local lab aligned with:
 
 - `lab_data_mining_techniques.ipynb`: main lab notebook on Iris (executed with outputs)
 - `lab_data_mining_techniques_taxi.ipynb`: advanced lab notebook on Taxi trips (executed with outputs)
+- `lab_missing_age_imputation_titanic.ipynb`: focused lab on missing female age + imputation distortion (executed with outputs)
 - `data/taxis.csv`: local taxi dataset used by the advanced notebook
+- `data/titanic.csv`: local Titanic dataset used by the imputation-distortion lab
 - `requirements.txt`: Python dependencies
 - `start_lab.sh`: one-command local launcher
 
@@ -30,6 +32,7 @@ Short local lab aligned with:
 Notebook versions and datasets:
 - `lab_data_mining_techniques.ipynb` uses **Iris** via `sklearn.datasets.load_iris`
 - `lab_data_mining_techniques_taxi.ipynb` uses a local open-source **Taxi trips** dataset at `data/taxis.csv`
+- `lab_missing_age_imputation_titanic.ipynb` uses a local open-source **Titanic** dataset at `data/titanic.csv`
 
 No manual download is required.
 
@@ -53,3 +56,4 @@ jupyter lab
 
 Open `lab_data_mining_techniques.ipynb` and run cells top to bottom.
 Or open `lab_data_mining_techniques_taxi.ipynb` for the more complex taxi-focused version.
+Or open `lab_missing_age_imputation_titanic.ipynb` for the missing-age imputation distortion case study.
