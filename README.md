@@ -6,7 +6,8 @@ Short local lab aligned with:
 
 ## What is included
 
-- `lab_data_mining_techniques.ipynb`: main lab notebook (executed with outputs)
+- `lab_data_mining_techniques.ipynb`: main lab notebook on Iris (executed with outputs)
+- `lab_data_mining_techniques_digits.ipynb`: advanced lab notebook on Digits (executed with outputs)
 - `requirements.txt`: Python dependencies
 - `start_lab.sh`: one-command local launcher
 
@@ -25,8 +26,9 @@ Short local lab aligned with:
 
 ## Dataset
 
-The notebook uses the open-source **Iris** dataset loaded via:
-- `sklearn.datasets.load_iris`
+Notebook versions and datasets:
+- `lab_data_mining_techniques.ipynb` uses **Iris** via `sklearn.datasets.load_iris`
+- `lab_data_mining_techniques_digits.ipynb` uses **Digits** via `sklearn.datasets.load_digits`
 
 No manual download is required.
 
@@ -49,3 +51,4 @@ jupyter lab
 ```
 
 Open `lab_data_mining_techniques.ipynb` and run cells top to bottom.
+Or open `lab_data_mining_techniques_digits.ipynb` for the more complex version.
